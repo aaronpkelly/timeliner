@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./node_modules/@aaronpkelly/libradoodle-javascript/javascript.js"></script>
+    <script src="earthTimeline.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR1hmb54KyXnngjDpgEcciv7YTIB33AfU&callback=initMap" async defer></script>
+  </head>
+<body onkeydown="keyCode(event)";>
+  <div id="map">map should go here</div>
+  <p id="messageArea">View the rise and fall of some ancient cities!<br><br>
+    - LEFT/RIGHT arrow keys increment/decrement the year<br>
+    - UP/DOWN arrow keys increase the step amount<br><br>
+    Sending hugs to all
+    </p>
+</body>
+</html>

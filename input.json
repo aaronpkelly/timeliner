@@ -1,0 +1,37 @@
+[
+  {
+    "city": "Jericho",
+    "founded": -9600,
+    "abandoned": 1e42,
+    "lat": 31.52,
+    "lng": 35.26
+  },
+  {
+    "city": "Eridu",
+    "founded": -5400,
+    "abandoned": -550,
+    "lat": 30.48,
+    "lng": 45.59
+  },
+  {
+    "city": "Uruk",
+    "founded": -4000,
+    "abandoned": 700,
+    "lat": 31.19,
+    "lng": 45.38
+  },
+  {
+    "city": "Susa",
+    "founded": -4200,
+    "abandoned": 1218,
+    "lat": 32.11,
+    "lng": 48.15
+  },
+  {
+    "city": "Ur",
+    "founded": -3800,
+    "abandoned": -500,
+    "lat": 30.57,
+    "lng": 46.6
+  }
+]

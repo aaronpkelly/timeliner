@@ -1,0 +1,26 @@
+version: 0.2
+
+env:
+  parameter-store:
+    GITHUB_PASS: "GITHUB_PASS"
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+  pre_build:
+    commands:
+      - echo Nothing to do
+  build:
+    commands:
+      - echo Nothing to do
+  post_build:
+    commands:
+        - rm -rf .git
+        - git init
+        - git config --global user.email "aaronkelly@fastmail.com"
+        - git config --global user.name "Aaron Kelly"
+        - git add .
+        - git commit -m 'initial commit'
+        - git remote add origin https://aaronpkelly:${GITHUB_PASS}@github.com/aaronpkelly/timeliner.git
+        - git push -u origin master --force
