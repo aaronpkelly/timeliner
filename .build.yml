@@ -1,0 +1,18 @@
+arch: null
+artifacts: []
+environment: {}
+image: alpine/edge
+packages: []
+repositories: {}
+secrets:
+- 1b3fe3d9-ee86-4c7e-bd35-d0c87b6e12a9
+shell: false
+sources:
+- git+ssh://git@git.sr.ht/~aaronkelly/timeliner
+tasks:
+- push-to-github: |-
+    echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+    cd timeliner && checkout master
+    git remote set-url origin git@github.com:aaronpkelly/timeliner
+    git push
+triggers: []
