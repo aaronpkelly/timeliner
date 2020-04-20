@@ -4,6 +4,10 @@
 
 This was a cool little project that I made which displays pushpins on a map when a city was founded, up until it is destroyed.
 
+# How it works
+
+I develop this project on sr.ht, push it to github, which is then picked up by hub.docker.com and built automatically
+
 # Getting started
 
 Oh I need help, yes I do:
