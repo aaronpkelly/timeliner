@@ -11,8 +11,8 @@ sources:
 - git+ssh://git@git.sr.ht/~aaronkelly/timeliner
 tasks:
 - push-to-github: |-
-    echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
     cd timeliner && git checkout master
     git remote set-url origin git@github.com:aaronpkelly/timeliner
+    echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
     git push
 triggers: []

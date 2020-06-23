@@ -19,7 +19,7 @@ https://wesbos.com/javascript-modules/
 Run the docker image, then connect to the container in your browser at http://localhost:8080:
 
 ```
-docker run --rm aaronpkelly/timeliner
+docker run --rm -p 80:80 aaronpkelly/timeliner
 ```
 
 You can also build the image, but you will need to pass in a Github personal access token for authorising with Github packages (https://help.github.com/en/github/managing-packages-with-github-packages/about-github-packages), as the image depends on npm libraries that are published there:
