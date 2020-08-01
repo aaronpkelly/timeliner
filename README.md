@@ -16,7 +16,7 @@ https://wesbos.com/javascript-modules/
 
 ## Docker
 
-Run the docker image, then connect to the container in your browser at http://localhost:8080:
+Run the docker image, then connect to the container in your browser at http://localhost:80
 
 ```
 docker run --rm -p 80:80 aaronpkelly/timeliner
